@@ -24,8 +24,6 @@ const ContactForm = () => {
     phone: "",
     type: "personal",
   });
-
-  console.log(contact);
   const { name, email, phone, type } = contact;
 
   const onChange = (e) =>
